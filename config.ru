@@ -41,4 +41,3 @@ html = <<-HTML
 HTML
 
 run lambda {|env| [200, {"Content-Type" => "text/html"}, html % ANSWERS[rand(ANSWERS.size)]]}
-
