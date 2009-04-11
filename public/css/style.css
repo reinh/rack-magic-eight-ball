@@ -1,0 +1,22 @@
+div#eight-ball {
+	display: block;
+	height: 332px;
+	width: 332px;
+	background: url(/images/magic-eight-ball.jpg) no-repeat center center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -166px 0 0 -166px;
+}
+
+div#eight-ball h1 {
+  font: normal 14px/18px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  text-align: center;
+  color: #eee;
+  margin: 0 auto;
+  width: 120px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -1em 0 0 -60px;
+}
