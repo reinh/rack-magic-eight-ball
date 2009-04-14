@@ -40,4 +40,5 @@ html = <<-HTML
 </html>
 HTML
 
+use Rack::Static, :urls => ["/css", "/images"], :root => "public"
 run lambda {|env| [200, {"Content-Type" => "text/html"}, html % ANSWERS[rand(ANSWERS.size)]]}
