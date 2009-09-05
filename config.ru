@@ -19,6 +19,7 @@ Ask again later.
 My reply is no.
 Outlook good.
 Don't count on it.
+42
 EOS
 
 html = <<-HTML
